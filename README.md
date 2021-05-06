@@ -23,7 +23,8 @@ characters possible (A, T, G, and C). So if we took the linguistic complexity
 of this example k = 1, for 'ATTGGATT' would be observed / possible or 
 (3 / 4) = 0.75.
 
-In this repository there are three files: 
+In this repository there are three files:
+
 	- Exam4.py (the python script that calculates linguistic complexity)
 	
 	- Exam4_test.py (the python script that tests each function in Exam4)
