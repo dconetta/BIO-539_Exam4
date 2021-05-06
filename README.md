@@ -25,14 +25,20 @@ of this example k = 1, for 'ATTGGATT' would be observed / possible or
 
 In this repository there are three files: 
 	- Exam4.py (the python script that calculates linguistic complexity)
+	
 	- Exam4_test.py (the python script that tests each function in Exam4)
+	
 	- seq_test.txt (text file of example sequence strings to use to output LC)
 
 In the Exam4.py file five major functions are created in defined;
 	- obs_kmer: calculates the observed kmers given the value k and string
+
 	- poss_kmer: calculates the possible kmers given the value k and string
+
 	- make_df: creates a data frame with all these values for given string
+	
 	- linguistic_complexity: calculates LC from data frame of given string
+	
 	- main: generalized to run any string to calculate LC
 
 In Exam4_test the first four functions are tested to pass certain qualifications
