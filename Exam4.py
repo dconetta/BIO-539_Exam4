@@ -7,7 +7,7 @@ import pandas as pd
 def  poss_kmer(k, string):
     ''' 
     This is a function to caluclate k and possible kmers given a string of characters
-    for exmaple: ATTGGCATT
+    for exmaple: ATTTGGATT
     
     k: kmer length
     string: string of characters 
@@ -28,7 +28,7 @@ def  poss_kmer(k, string):
 def obs_kmer(k, string): 
     ''' 
     This is a function to caluclate k and observed kmers given a string of characters
-    for exmaple: ATTGGCATT
+    for exmaple: ATTTGGATT
     
     k: kmer length
     string: string of characters 
@@ -54,7 +54,7 @@ def obs_kmer(k, string):
 def make_df(string): 
     ''' 
     This is a function to create table of possible, and observed kmers given a string of characters
-    for exmaple: ATTGGCATT
+    for exmaple: ATTTGGATT
     
     string: string of characters 
     
@@ -142,7 +142,7 @@ if __name__ == '__main__':    #for all function called main do the following
 def make_df(string): 
     ''' 
     This is a function to create table of possible, and observed kmers given a string of characters
-    for exmaple: ATTGGCATT
+    for exmaple: ATTTGGATT
     
     string: string of characters 
     
